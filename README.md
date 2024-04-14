@@ -62,7 +62,7 @@ This interactive tax calculator estimates your tax burden.Enter income, deductio
 
 *1. Age < 40*
 
-<img width="349" alt="case 7a" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/e4b05669-3e36-4e33-9546-2e3b60103e83">
+<img width="355" alt="case 7a" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/e4b05669-3e36-4e33-9546-2e3b60103e83">
 <img width="340" alt="case 7a1" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/f902a589-2bc4-43cf-8163-d93d03046a64"> 
 
 
