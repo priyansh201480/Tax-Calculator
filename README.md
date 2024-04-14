@@ -34,7 +34,7 @@ This interactive tax calculator estimates your tax burden.Enter income, deductio
 ## Test Cases
 **Case 1: Tooltip is shown when hovering over the question mark icons**
 
-<img width="357" alt="case 1" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/e2cd5b85-3728-4c47-8870-8b333a2aed23">
+<img width="357" alt="case 1" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/3acee68c-2150-4fae-8fce-db3c7cdf4a02">
 
 **Case 2: Display error icons if the user clicks the submit button without entering input. Error message states "This input field is mandatory"**
 
