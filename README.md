@@ -1,5 +1,5 @@
 # Tax-Calculator
-This is a simple tax calculator implemented in JavaScript. It calculates the overall income after considering gross income, extra income, age group and deductions. Additionally, it provides validation for input fields.
+This interactive tax calculator estimates your tax burden.Enter income, deductions, and age. It handles basic errors (like non-numeric input) and highlights them with tooltips. Choose your age group from a dropdown. Upon submission, a modal displays the calculated tax based on pre-set brackets.Built with HTML, CSS, and JavaScript for a user-friendly experience.
 
 ## References & Requirements
 - The tax calculation works based on this formula -
@@ -24,33 +24,17 @@ This is a simple tax calculator implemented in JavaScript. It calculates the ove
 - Error icons should not be visible in the form by default.
 - Clicking on submit should show a modal which would show the final values based on the above calculations.
 
-## Assumptions
-- **Input Validation:**
-  - Input values are validated on focus, change, and when the submit button is clicked.
-  - Errors are displayed to the user under the following conditions:
-    - Typing a number less than zero results in an error message "Please type non-negative numbers".
-    - Clicking on an input field and not typing anything or leaving any field empty and clicking the submit button results in an error message "This input field is mandatory".
-    - Typing anything other than a number results in an error message "Please type numbers only".
-- **Overall Income Calculation:**
-  - If the sum of gross income, extra income, and deductions is less than or equal to 8 lakhs, the overall income is displayed as the sum of gross income and extra income.
-
-## Run Locally
-To run your application locally, follow these steps:
-1. **Download the Code**: Download the HTML, CSS, and JavaScript files to your local machine.
-2. **Open HTML File**: Open the HTML file in your preferred web browser. You can do this by double-clicking the HTML file or right-clicking and selecting "Open with" and choosing your web browser.
-3. **Ensure Internet Connection**: Since your application uses Bootstrap icons via CDN links, ensure that you have an internet connection while running the application locally. If you don't have an internet connection, the icons may not be visible.
-4. **Interact with the Application**: Once the HTML file is opened in your web browser, you can interact with the tax calculator just like you would on a live website. Input values, click the submit button, and verify that the calculations and error messages work as expected.
-
-## Usage
-To use the tax calculator:
-- Input the gross income, extra income, age group, and total deductions.
-- Click the submit button to calculate the overall income and display the result.
-- If any input is invalid, error messages will be shown to guide the user on how to correct the inputs.
+## Features:
+- Calculate taxes based on income, deductions, and age brackets.
+- Handle invalid input (characters in numbers) with real-time error icons and tooltips.
+- Offer a dropdown menu for selecting age range (<40, 40-60, >=60).
+- Require age selection with an error indicator for a missing value.
+- Display final tax calculations in a modal window upon submit.
 
 ## Test Cases
 **Case 1: Tooltip is shown when hovering over the question mark icons**
 
-<img src="https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/618a1de9-89ce-4364-a33b-52055f4e7704" alt="Case 1" width="500"/><br/>
+![case 1](https://github.com/priyansh201480/Tax-Calculator/assets/140069604/e2cd5b85-3728-4c47-8870-8b333a2aed23)
 
 **Case 2: Display error icons if the user clicks the submit button without entering input. Error message states "This input field is mandatory"**<br/>
 *Image 1:* Default State & *Image 2:* After clicking the submit button for empty fields
