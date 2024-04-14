@@ -34,40 +34,46 @@ This interactive tax calculator estimates your tax burden.Enter income, deductio
 ## Test Cases
 **Case 1: Tooltip is shown when hovering over the question mark icons**
 
-![case 1](https://github.com/priyansh201480/Tax-Calculator/assets/140069604/e2cd5b85-3728-4c47-8870-8b333a2aed23)
+<img width="357" alt="case 1" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/e2cd5b85-3728-4c47-8870-8b333a2aed23">
 
-**Case 2: Display error icons if the user clicks the submit button without entering input. Error message states "This input field is mandatory"**<br/>
-*Image 1:* Default State & *Image 2:* After clicking the submit button for empty fields
+**Case 2: Display error icons if the user clicks the submit button without entering input. Error message states "This input field is mandatory"**
 
-![image](https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/646deb3a-2be6-499b-8da7-1cc7e652c2bb)
+<img width="376" alt="case 2" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/29506e5e-d067-4b20-84b7-999e6426906f">
 
-**Case 3: Error icons will appear if a negative value is entered in the Number fields. These fields only accept 0 or positive numbers. Error message states "Please enter non-negative numbers only"**
+**Case 3: Error icons will appear if characters are entered instead of a number. Error message states "Please enter numbers only."**
 
-<img src="https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/15bd46c9-f922-4518-9b76-0fef9a4518b8" alt="Case 3" width="500"/><br/>
+<img width="367" alt="case 3" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/7f53eb92-13e9-4375-ac1d-6ed6e08e70af">
 
-**Case 4: Error icons will appear if characters are entered in the Number fields instead of a number. Error message states "Please enter numbers only."**
+**Case 4: Error icons will appear if a negative value is entered. Error message states "Please enter non-negative numbers only"**
 
-<img src="https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/b4467856-a6a6-48f9-b472-e71ff0f2ccdc" alt="Case 4" width="500"/><br/>
+<img width="367" alt="case 4" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/b8a5316d-1900-413b-8fdb-67a2238152f2">
 
-**Case 5: Display error icons when all number fields are filled, but the age group is not selected. Error message states "This input field is mandatory."**
+**Case 5: Display error icon when all other fields are filled except the age group field. Error message states "This input field is mandatory."**
 
-<img src="https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/a560ece8-616c-4865-85a4-f5543e2b1738" alt="Case 5" width="500"/><br/>
+<img width="367" alt="case 5" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/7ae38fd3-7b60-4cd8-8ec0-9438f591b52a">
 
-**Case 6: If Gross Income +  Extra Income - Total Deductions is ≤ 8 lakhs then no income tax is applicable. So overall income will be Gross Income +  Extra Income.**
+**Case 6: If Gross Income +  Extra Income - Total Deductions is ≤ 8 lakhs then no tax is applicable. So overall income will be Gross Income +  Extra Income.**
 
-![image](https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/17dc19b6-1a2e-4714-9f67-7c7837c5f573)
+<img width="353" alt="case 6 (a)" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/c4375987-8d44-4eb8-9009-fed961c6d2f5">
+<img width="368" alt="case 6(b)" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/4dfceac6-d81f-4008-b348-b8a940a5a74d"></span>
 
-**Case 7: If Gross Income +  Extra Income - Total Deductions is > 8 lakhs then income tax is applicable based on age group. So overall income will be calculated accordingly.**<br/>
+
+**Case 7: If Gross Income +  Extra Income - Total Deductions is > 8 lakhs then income tax is applicable based on age group. So overall income will be calculated accordingly.**
+
 *1. Age < 40*
 
-![image](https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/a9188665-8a8b-4268-8f84-26f5f04a2c2b)
+<img width="349" alt="case 7a" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/e4b05669-3e36-4e33-9546-2e3b60103e83">
+<img width="340" alt="case 7a1" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/f902a589-2bc4-43cf-8163-d93d03046a64"> 
+
 
 *2. Age ≥ 40 & < 60*
 
-![image](https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/90798032-3d62-40bb-ba9a-dd14ce28b2a3)
+<img width="349" alt="case 7 b" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/fa859d29-aeb6-4722-a527-4f65d2a273a3">
+<img width="340" alt="7 b 1" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/d0234acc-9ab6-4997-970a-9c1830ab77ca">
 
 *3. Age ≥ 60*
 
-![image](https://github.com/KamiyaGaikwad/Tax-Calculator/assets/79163529/a2f0867e-4d9e-4fbc-af15-eb408b1e1b50)
+<img width="349" alt="case 7 c" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/2bac5f85-c7cb-4273-ae67-9bd915337dc9">
+<img width="340" alt="case 7 c 1" src="https://github.com/priyansh201480/Tax-Calculator/assets/140069604/4d48b419-2965-4a77-92c4-56b549ee7ec3">
 
 
